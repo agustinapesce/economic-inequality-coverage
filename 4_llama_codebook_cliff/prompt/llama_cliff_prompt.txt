@@ -1,0 +1,22 @@
+<begin_of_text_token>You are a classifier for economic inequality-related texts based on a codebook. You will receive a text from the {text_type} (year: {year}) that deals with economic inequality, and your task is to classify it according to the most prominent topic and subtopic. Use the codebook provided below.
+
+# Topic and Subtopic Codebook:
+{topics_descrip}
+
+# Instructions:
+1. Justify:
+Provide a justification of why you applied the selected code.
+2. Determine the TOPIC:
+Select the single primary topic (numbered 1 to 14) that best matches the text's main theme based on the descriptions provided below. Every text has a topic, choose the one that most closely aligns with the dominant message or has according keywords.
+3. Determine the SUBTOPIC:
+Select the corresponding primary subtopic (letter A to D). Use 'none' as subtopic if no subtopic aligns with the text within the chosen topic.
+
+# JSON Output description:
+{json_examples}
+- When multiple topics are present, classify the text based on the most emphasized topic or the one most strongly represented by the keywords and context.
+- Do not answer anything additional to the given formatted JSON.
+
+# Text to Classify:
+{text}
+
+# JSON Output:

@@ -1,0 +1,886 @@
+source venv/bin/activate
+(venv) agustina.pesce94@emi-survey:~$ potato start intrusion_task_server -p 8001
+multiple config files found, please select the one you want to use (number 0-2)
+[0] radio-dynamic-labels3.yaml
+[1] prolific_config.yaml
+number: 0
+starting server from intrusion_task_server/configs/radio-dynamic-labels3.yaml
+the current working directory is: /home/agustina.pesce94/intrusion_task_server
+Prolific configurations successfully loaded for study: Intruder task
+id: 67c1c784a2aa330a95bbbfd3
+name: Topic validation task
+internal_name: Intruder task
+reward: 300
+average_reward_per_hour: 900.0
+external_study_url: https://emi-survey.com/?PROLIFIC_PID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}
+status: UNPUBLISHED
+total_available_places: 20
+places_taken: 0
+WARNING:potato.flask_server:surveyflow_html_layout not configured, use default template at /home/agustina.pesce94/venv/lib/python3.8/site-packages/potato/base_html/examples/plain_layout.html
+running at:
+localhost:8001
+ * Serving Flask app 'potato.flask_server'
+ * Debug mode: off
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+update_prolific_study is called
+Successfully fetched 0 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67af66da046c897935c6e345, total pages: 57, total users: 1, unassigned labels: 245, finished users: 0
+WARNING:root:Instance already assigned to user 67af66da046c897935c6e345, assigning process stoppped
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+INFO:potato.flask_server:Loaded 2 annotations for known user "67af66da046c897935c6e345"
+saved
+saved
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+prolific logging in with PROLIFIC_PID=675b3c26026f3cfdc03594d0
+update_prolific_study is called
+Successfully fetched 1 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 675b3c26026f3cfdc03594d0, total pages: 57, total users: 2, unassigned labels: 196, finished users: 0
+WARNING:root:Instance already assigned to user 675b3c26026f3cfdc03594d0, assigning process stoppped
+saved
+ERROR:werkzeug:167.94.138.181 - - [03/Mar/2025 16:51:17] code 400, message Bad request version ('À\x14À')
+saved
+saved
+ERROR:werkzeug:167.94.138.181 - - [03/Mar/2025 16:51:37] code 505, message Invalid HTTP version (2.0)
+ERROR:werkzeug:167.94.138.181 - - [03/Mar/2025 16:51:49] code 400, message Bad request version ('À\x14À')
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67b8cc18ed814df56dd26e89
+update_prolific_study is called
+saved
+Successfully fetched 2 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67b8cc18ed814df56dd26e89, total pages: 57, total users: 3, unassigned labels: 147, finished users: 0
+saved
+saved
+saved
+saved
+saved
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[A^[[B^[[B^[[Bsaved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 67b8cc18ed814df56dd26e89, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=5dcf0f73af16d3067b87757f
+update_prolific_study is called
+Successfully fetched 3 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 5dcf0f73af16d3067b87757f, total pages: 57, total users: 4, unassigned labels: 98, finished users: 0
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 5dcf0f73af16d3067b87757f, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=673ef080255f15b49aa84f96
+update_prolific_study is called
+Successfully fetched 4 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 673ef080255f15b49aa84f96, total pages: 57, total users: 5, unassigned labels: 49, finished users: 1
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 673ef080255f15b49aa84f96, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67c451890eb65148aa1758ea
+update_prolific_study is called
+Successfully fetched 5 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67c451890eb65148aa1758ea, total pages: 57, total users: 6, unassigned labels: 0, finished users: 1
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 67c451890eb65148aa1758ea, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67bf3c1a049571cd3e5c1348
+update_prolific_study is called
+Successfully fetched 6 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+tmux detach
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+^[[Btmux attach -t agus_surveysaved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=662aca04169412ae36fb7d60
+update_prolific_study is called
+Successfully fetched 7 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+ERROR:werkzeug:162.216.149.123 - - [03/Mar/2025 17:37:41] code 400, message Bad request version ('À\x13À')
+ERROR:werkzeug:162.216.149.123 - - [03/Mar/2025 17:37:41] code 400, message Bad request version ('À(À$À\x14À')
+prolific logging in with PROLIFIC_PID=67c13e7002dc3a967373f129
+update_prolific_study is called
+Successfully fetched 8 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+saved
+saved
+saved
+^[[B^[[Bprolific logging in with PROLIFIC_PID=66fce373051cafbe0961017b
+update_prolific_study is called
+Successfully fetched 9 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+^C(venv) agustina.pesce94@emi-survey:~$ potato start intrusion_task_server -p 8001
+multiple config files found, please select the one you want to use (number 0-2)
+[0] radio-dynamic-labels3.yaml
+[1] prolific_config.yaml
+number: 0
+starting server from intrusion_task_server/configs/radio-dynamic-labels3.yaml
+the current working directory is: /home/agustina.pesce94/intrusion_task_server
+Prolific configurations successfully loaded for study: Intruder task
+id: 67c1c784a2aa330a95bbbfd3
+name: Topic validation task
+internal_name: Intruder task
+reward: 250
+average_reward_per_hour: 750.0
+external_study_url: https://emi-survey.com/?PROLIFIC_PID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}
+status: PAUSED
+total_available_places: 20
+places_taken: 5
+WARNING:potato.flask_server:surveyflow_html_layout not configured, use default template at /home/agustina.pesce94/venv/lib/python3.8/site-packages/potato/base_html/examples/plain_layout.html
+INFO:potato.flask_server:Loaded 52 annotations for known user "5dcf0f73af16d3067b87757f"
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+INFO:potato.flask_server:Loaded 52 annotations for known user "673ef080255f15b49aa84f96"
+INFO:potato.flask_server:Loaded 52 annotations for known user "675b3c26026f3cfdc03594d0"
+INFO:potato.flask_server:Loaded 52 annotations for known user "67c451890eb65148aa1758ea"
+INFO:potato.flask_server:Loaded 52 annotations for known user "67b8cc18ed814df56dd26e89"
+running at:
+localhost:8001
+ * Serving Flask app 'potato.flask_server'
+ * Debug mode: off
+ERROR:werkzeug:167.94.138.56 - - [03/Mar/2025 17:59:25] code 400, message Bad request version ('À\x14À')
+prolific logging in with PROLIFIC_PID=66f0c6617306349ce40e0010
+update_prolific_study is called
+Successfully fetched 10 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+ERROR:werkzeug:167.94.138.56 - - [03/Mar/2025 18:00:20] code 400, message Bad request syntax ('ZG\x00\x00\x00\x05\x00+\x0e\x01\x00')
+^C(venv) agustina.pesce94@emi-survey:~$ ls
+[0m[01;34mintrusion_task_server[0m  logfile.txt  [01;34mvenv[0m
+(venv) agustina.pesce94@emi-survey:~$ cd intrusion_Task_server
+-bash: cd: intrusion_Task_server: No such file or directory
+(venv) agustina.pesce94@emi-survey:~$ cd intrusion_Task_server[C[C[C[C[C[1Pask_servertask_server
+(venv) agustina.pesce94@emi-survey:~/intrusion_task_server$ ls
+[0m[01;34mannotation_output3[0m  [01;34mconfigs[0m  [01;34mdata[0m  [01;34msurveyflow[0m
+(venv) agustina.pesce94@emi-survey:~/intrusion_task_server$ cd ..
+(venv) agustina.pesce94@emi-survey:~$ cat logflie.txt
+cat: logflie.txt: No such file or directory
+(venv) agustina.pesce94@emi-survey:~$ cat logflie.txt[C[1Pe.txtile.txt
+source venv/bin/activate
+(venv) agustina.pesce94@emi-survey:~$ potato start intrusion_task_server -p 8001
+multiple config files found, please select the one you want to use (number 0-2)
+[0] radio-dynamic-labels3.yaml
+[1] prolific_config.yaml
+number: 0
+starting server from intrusion_task_server/configs/radio-dynamic-labels3.yaml
+the current working directory is: /home/agustina.pesce94/intrusion_task_server
+Prolific configurations successfully loaded for study: Intruder task
+id: 67c1c784a2aa330a95bbbfd3
+name: Topic validation task
+internal_name: Intruder task
+reward: 300
+average_reward_per_hour: 900.0
+external_study_url: https://emi-survey.com/?PROLIFIC_PID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}
+status: UNPUBLISHED
+total_available_places: 20
+places_taken: 0
+WARNING:potato.flask_server:surveyflow_html_layout not configured, use default template at /home/agustina.pesce94/venv/lib/python3.8/site-packages/potato/base_html/examples/plain_layout.html
+running at:
+localhost:8001
+ * Serving Flask app 'potato.flask_server'
+ * Debug mode: off
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+update_prolific_study is called
+Successfully fetched 0 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67af66da046c897935c6e345, total pages: 57, total users: 1, unassigned labels: 245, finished users: 0
+WARNING:root:Instance already assigned to user 67af66da046c897935c6e345, assigning process stoppped
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+INFO:potato.flask_server:Loaded 2 annotations for known user "67af66da046c897935c6e345"
+saved
+saved
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+prolific logging in with PROLIFIC_PID=675b3c26026f3cfdc03594d0
+update_prolific_study is called
+Successfully fetched 1 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 675b3c26026f3cfdc03594d0, total pages: 57, total users: 2, unassigned labels: 196, finished users: 0
+WARNING:root:Instance already assigned to user 675b3c26026f3cfdc03594d0, assigning process stoppped
+saved
+ERROR:werkzeug:167.94.138.181 - - [03/Mar/2025 16:51:17] code 400, message Bad request version ('À\x14À')
+saved
+saved
+ERROR:werkzeug:167.94.138.181 - - [03/Mar/2025 16:51:37] code 505, message Invalid HTTP version (2.0)
+ERROR:werkzeug:167.94.138.181 - - [03/Mar/2025 16:51:49] code 400, message Bad request version ('À\x14À')
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67b8cc18ed814df56dd26e89
+update_prolific_study is called
+saved
+Successfully fetched 2 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67b8cc18ed814df56dd26e89, total pages: 57, total users: 3, unassigned labels: 147, finished users: 0
+saved
+saved
+saved
+saved
+saved
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[A^[[B^[[B^[[Bsaved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 67b8cc18ed814df56dd26e89, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=5dcf0f73af16d3067b87757f
+update_prolific_study is called
+Successfully fetched 3 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 5dcf0f73af16d3067b87757f, total pages: 57, total users: 4, unassigned labels: 98, finished users: 0
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 5dcf0f73af16d3067b87757f, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=673ef080255f15b49aa84f96
+update_prolific_study is called
+Successfully fetched 4 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 673ef080255f15b49aa84f96, total pages: 57, total users: 5, unassigned labels: 49, finished users: 1
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 673ef080255f15b49aa84f96, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67c451890eb65148aa1758ea
+update_prolific_study is called
+Successfully fetched 5 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67c451890eb65148aa1758ea, total pages: 57, total users: 6, unassigned labels: 0, finished users: 1
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 67c451890eb65148aa1758ea, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=67bf3c1a049571cd3e5c1348
+update_prolific_study is called
+Successfully fetched 6 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+tmux detach
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+^[[Btmux attach -t agus_surveysaved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=662aca04169412ae36fb7d60
+update_prolific_study is called
+Successfully fetched 7 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+ERROR:werkzeug:162.216.149.123 - - [03/Mar/2025 17:37:41] code 400, message Bad request version ('À\x13À')
+ERROR:werkzeug:162.216.149.123 - - [03/Mar/2025 17:37:41] code 400, message Bad request version ('À(À$À\x14À')
+prolific logging in with PROLIFIC_PID=67c13e7002dc3a967373f129
+update_prolific_study is called
+Successfully fetched 8 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+saved
+saved
+saved
+^[[B^[[Bprolific logging in with PROLIFIC_PID=66fce373051cafbe0961017b
+update_prolific_study is called
+Successfully fetched 9 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+^C(venv) agustina.pesce94@emi-survey:~$ potato start intrusion_task_server -p 8001
+multiple config files found, please select the one you want to use (number 0-2)
+[0] radio-dynamic-labels3.yaml
+[1] prolific_config.yaml
+number: 0
+starting server from intrusion_task_server/configs/radio-dynamic-labels3.yaml
+the current working directory is: /home/agustina.pesce94/intrusion_task_server
+Prolific configurations successfully loaded for study: Intruder task
+id: 67c1c784a2aa330a95bbbfd3
+name: Topic validation task
+internal_name: Intruder task
+reward: 250
+average_reward_per_hour: 750.0
+external_study_url: https://emi-survey.com/?PROLIFIC_PID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}
+status: PAUSED
+total_available_places: 20
+places_taken: 5
+WARNING:potato.flask_server:surveyflow_html_layout not configured, use default template at /home/agustina.pesce94/venv/lib/python3.8/site-packages/potato/base_html/examples/plain_layout.html
+INFO:potato.flask_server:Loaded 52 annotations for known user "5dcf0f73af16d3067b87757f"
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+INFO:potato.flask_server:Loaded 52 annotations for known user "673ef080255f15b49aa84f96"
+INFO:potato.flask_server:Loaded 52 annotations for known user "675b3c26026f3cfdc03594d0"
+INFO:potato.flask_server:Loaded 52 annotations for known user "67c451890eb65148aa1758ea"
+INFO:potato.flask_server:Loaded 52 annotations for known user "67b8cc18ed814df56dd26e89"
+running at:
+localhost:8001
+ * Serving Flask app 'potato.flask_server'
+ * Debug mode: off
+ERROR:werkzeug:167.94.138.56 - - [03/Mar/2025 17:59:25] code 400, message Bad request version ('À\x14À')
+prolific logging in with PROLIFIC_PID=66f0c6617306349ce40e0010
+update_prolific_study is called
+Successfully fetched 10 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED
+ERROR:werkzeug:167.94.138.56 - - [03/Mar/2025 18:00:20] code 400, message Bad request syntax ('ZG\x00\x00\x00\x05\x00+\x0e\x01\x00')
+^C(venv) agustina.pesce94@emi-survey:~$ ls
+[0m[01;34mintrusion_task_server[0m  logfile.txt  [01;34mvenv[0m
+(venv) agustina.pesce94@emi-survey:~$ cd intrusion_Task_server
+-bash: cd: intrusion_Task_server: No such file or directory
+(venv) agustina.pesce94@emi-survey:~$ cd intrusion_Task_server[C[C[C[C[C[1Pask_servertask_server
+(venv) agustina.pesce94@emi-survey:~/intrusion_task_server$ ls
+[0m[01;34mannotation_output3[0m  [01;34mconfigs[0m  [01;34mdata[0m  [01;34msurveyflow[0m
+(venv) agustina.pesce94@emi-survey:~/intrusion_task_server$ cd ..
+(venv) agustina.pesce94@emi-survey:~$ cat logflie.txt
+cat: logflie.txt: No such file or directory
+(venv) agustina.pesce94@emi-survey:~$ cat logflie.txt[C[1Pe.txtile.txt
+(venv) agustina.pesce94@emi-survey:~$ m[K^C
+(venv) agustina.pesce94@emi-survey:~$ tmux attach -t agus_survey
+sessions should be nested with care, unset $TMUX to force
+(venv) agustina.pesce94@emi-survey:~$ potato start intrusion_task_server -p 8001
+multiple config files found, please select the one you want to use (number 0-2)
+[0] radio-dynamic-labels3.yaml
+[1] prolific_config.yaml
+number: 0
+starting server from intrusion_task_server/configs/radio-dynamic-labels3.yaml
+the current working directory is: /home/agustina.pesce94/intrusion_task_server
+Prolific configurations successfully loaded for study: Intruder task
+id: 67c1c784a2aa330a95bbbfd3
+name: Topic validation task
+internal_name: Intruder task
+reward: 250
+average_reward_per_hour: 750.0
+external_study_url: https://emi-survey.com/?PROLIFIC_PID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}
+status: PAUSED
+total_available_places: 20
+places_taken: 5
+WARNING:potato.flask_server:surveyflow_html_layout not configured, use default template at /home/agustina.pesce94/venv/lib/python3.8/site-packages/potato/base_html/examples/plain_layout.html
+INFO:potato.flask_server:Loaded 52 annotations for known user "5dcf0f73af16d3067b87757f"
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+INFO:potato.flask_server:Loaded 52 annotations for known user "673ef080255f15b49aa84f96"
+INFO:potato.flask_server:Loaded 52 annotations for known user "675b3c26026f3cfdc03594d0"
+INFO:potato.flask_server:Loaded 52 annotations for known user "67c451890eb65148aa1758ea"
+INFO:potato.flask_server:Loaded 52 annotations for known user "67b8cc18ed814df56dd26e89"
+running at:
+localhost:8001
+ * Serving Flask app 'potato.flask_server'
+ * Debug mode: off
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+INFO:potato.flask_server:Loaded 3 annotations for known user "67af66da046c897935c6e345"
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=661ec095d72cab6ddd9d6194
+update_prolific_study is called
+Successfully fetched 11 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+All instance have been assigned, trying to pause the prolific study
+67c1c784a2aa330a95bbbfd3 PAUSED

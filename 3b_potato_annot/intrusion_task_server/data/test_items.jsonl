@@ -1,0 +1,4 @@
+{"id": "0_testing", "text": "This is an attention check:<br> sand - sand - sand - whale - sand - sand", "labels": ["sand", "sand", "sand", "whale", "sand", "sand"]}
+{"id": "1_testing", "text": "This is an attention check:<br> parliament - soccer - parliament - parliament - parliament - parliament", "labels": ["parliament", "soccer", "parliament", "parliament", "parliament", "parliament"]}
+{"id": "2_testing", "text": "This is an attention check:<br> river - river - river - river - apple - river", "labels": ["river", "river", "river", "river", "apple", "river"]}
+{"id": "3_testing", "text": "This is an attention check:<br> uncle - commerce - commerce - commerce - commerce - commerce", "labels": ["uncle", "commerce", "commerce", "commerce", "commerce", "commerce"]}

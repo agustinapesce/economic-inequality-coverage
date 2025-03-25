@@ -1,0 +1,149 @@
+{
+    ###### Erase for server use ######
+    #"port": 999,
+    #"server_name": "potato annotator",
+
+    ##################################
+
+    "annotation_task_name": "Word intruder task",
+
+    # Potato will write the annotation file for all annotations to this directory, 
+    # as well as per-annotator output files and state information necessary to restart annotation.
+    "output_annotation_dir": "annotation_output3/",
+
+    # The output format for the all-annotator data. Allowed formats are:
+    # * jsonl,* json (same output as jsonl),* csv, * tsv
+    "output_annotation_format": "csv", 
+
+    # If annotators are using a codebook, this will be linked at the top to the instance for easy access
+    "annotation_codebook_url": "",
+
+    "data_files": [
+        "data/intrusion_task_data3.jsonl"
+    ],
+
+    "item_properties": {
+        "id_key": "id",
+        "text_key": "text",
+        #"context_key": "context", 
+    },
+
+    "user_config": {
+
+      "allow_all_users": True,
+      "users": [  ],
+    },
+
+    ###### Erase for local use ######
+    "prolific": {
+        "config_file_path": 'configs/prolific_config.yaml'
+    },
+
+    ##defining the ways annotators entering the annotation system
+    
+    #Local
+    #"login": {
+    #  #"type": 'url_direct',
+    #  "type": "password",    #can be 'password' or 'url_direct'
+    #},
+    
+    #Prolific
+    "login": {
+       "type": 'prolific',    #can be 'password' or 'url_direct'
+       "url_argument": 'PROLIFIC_PID' # when the login type is set to 'url_direct', 'url_argument' must be setup for a direct url argument login
+    },
+
+    ##the jumping-to-id function will be disabled if "jumping_to_id_disabled" is True
+    "jumping_to_id_disabled": True,
+
+    ##the navigation bar will be hidden to the annotators if "hide_navbar" is True
+    "hide_navbar": True,
+
+    #Survey flow not working
+    "surveyflow": {
+      "on": True,
+      "order": ["pre_annotation","post_annotation"],
+      "pre_annotation": [
+        {"file": "surveyflow/0_intro.jsonl", "text": "Study purpose & task"},
+        {"file": "surveyflow/1_instructions3.jsonl", "text": "Instructions & survey details"},
+        {"file": "surveyflow/2_consent.jsonl", "text": "Please answer all the consent questions"},
+      ],
+      "post_annotation": [
+        {"file": "surveyflow/3_post_annotation.jsonl", "text": "Please answer these final questions"},
+        {"file": "surveyflow/4_end.jsonl", "text": "Link to end survey"},
+      ],
+       "testing": [
+       ]
+     },
+
+    "automatic_assignment": {
+    "on": True, #whether do automatic task assignment for annotators, default False.
+    "output_filename": 'task_assignment3.json',
+    "sampling_strategy": 'random', #currently we support random assignment or ordered assignment. Use 'random' for random assignment and 'ordered' for ordered assignment
+    "labels_per_instance": 50,  #the number of labels for each instance
+    "instance_per_annotator": 52, #the total amount of instances to be assigned to each annotator
+    "test_question_per_annotator": 3, # the number of attention test question to be inserted into the annotation queue. you must set up the test question in surveyflow to use this function
+    "users": [ ],
+    },
+
+    # How many seconds do you want the annotators spend on each instance, after
+    # that, an alert will be sent per alert_time_each_instance seconds.
+    "alert_time_each_instance": 10000000,
+
+    "annotation_schemes": [      
+        {
+            "annotation_type": "radio",
+            "name": "intruder",
+            "description": "Which word <b>does not</b> belong with the others?",
+            #"Which word does not belong in the group?"
+            #Chang et al. 2009
+            # The task of the user is to find the word which is out of place or
+            # does not belong with the others, i.e., the intruder.
+            
+            "dynamic_labels": True, #set this true if you need dynamic labels for each instance
+            "labels": [
+               {"name": "{{instance_obj.labels[0]}}"},
+               {"name": "{{instance_obj.labels[1]}}"},
+               {"name": "{{instance_obj.labels[2]}}"},
+               {"name": "{{instance_obj.labels[3]}}"},
+               {"name": "{{instance_obj.labels[4]}}"},
+               {"name": "{{instance_obj.labels[5]}}"}
+            ], #please make sure "labels" are in the input data
+
+            # adding requirements for labels, when "required" is True, the annotators will be asked to finish the current instance to proceed
+            "label_requirement": {"required": True},
+
+            # If true, numbers [1-len(labels)] will be bound to each label. 
+            # Check box annotations with more than 10 are not supported
+            # with this simple keybinding and will need to use the full item
+            # specification to bind all labels to keys.
+            "sequential_key_binding": True,
+
+            # Whether randomizing the order of the options
+            "option_randomization": False            
+        },
+    ],
+
+    # The html that changes the visualiztation for your task. Change this file
+    # to influence the layout and description of your task. This is not a full
+    # HTML page, just the piece that does lays out your task's pieces
+    # you may use templates in our lib, if you want to use your own template,
+    # please replace the string as a path to the template
+    "html_layout": "default",
+    #"surveyflow_html_layout": "default",
+
+    # The core UI files for Potato. You should not need to change these normally.
+    #
+    # Exceptions to this might include:
+    # 1) You want to add custom CSS/fonts to style your task
+    # 2) Your layout requires additional JS/assets to render
+    # 3) You want to support additional keybinding magic
+    #
+    # if you want to use your own template,
+    # please replace the string as a path to the template
+    "base_html_template": "default",
+    "header_file": "default",
+
+    # This is where the actual HTML files will be generated
+    "site_dir": "default"
+}

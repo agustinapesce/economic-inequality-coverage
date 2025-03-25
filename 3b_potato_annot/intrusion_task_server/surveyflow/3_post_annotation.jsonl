@@ -1,0 +1,4 @@
+{"id":"1","text":"What is your gender?","schema": "radio", "choices": ["Woman", "Man", "Non-binary","Prefer not to disclose", "Prefer to self-describe (please specify)"], "has_free_response": {"instruction": ""}}
+{"id":"2","text":"What is your current age?","schema": "number"}
+{"id":"3","text":"Did you encounter any technical difficulties? (optional)","schema": "text"}
+{"id":"3","text":"Is there anything else you would like to let us know? (optional)","schema": "text"}

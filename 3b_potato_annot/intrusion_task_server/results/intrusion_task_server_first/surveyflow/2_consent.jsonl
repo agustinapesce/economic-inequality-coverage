@@ -1,0 +1,4 @@
+{"id":"1","text":"I certify that I am at least 18 years of age.","schema": "radio", "choices": ["I agree", "I disagree"], "label_requirement": {"right_label":["I agree"]}}
+{"id":"2","text":"I have read and understood the previous information.","schema": "radio", "choices": ["Yes", "No"], "label_requirement": {"right_label":["Yes"]}}
+{"id":"3","text":"I agree that my data may be published as open data. This means that the anonymized data will be publicly accessible and may be used for purposes unrelated to this study. It will not be possible to identify you from this data.","schema": "radio","choices": ["Yes", "No"],"label_requirement": {"right_label":["Yes"]}}
+{"id":"4","text":"I want to participate in this research and continue with the study.","schema": "radio","choices": ["Yes", "No"],"label_requirement": {"right_label":["Yes"]}}

@@ -1,0 +1,9 @@
+- Respond with a JSON in the following fashion: 
+{"justification": "[insert 1-2 sentence rationale for applying the code here]", "topic": "number", "subtopic": "letter"} 
+
+# Example Outputs:
+Example 1. Output for text about 'Small Businesses, Corporations & Entrepreneurship":
+{"justification": "Introduction of the INVEST Act, which focuses on helping small- and medium-sized businesses by allowing them to recover their costs faster.", "topic": "5", "subtopic": "A"} 
+
+Example 2. Output for text on "Horizontal Inequalities" affecting Skimos, no available subtopic:
+{"justification": "Report on income inequalities affecting Skimos and possible solutions.", "topic": "1", "subtopic": "none"}

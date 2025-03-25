@@ -1,0 +1,13 @@
+{
+    # Prolific API token
+    "token": 'QrhEggSeJZtOI9j2pqoQ3xWBsLGWmDLXQdziwQmpz2K3aNYvFDVYJlnSDKWKyZMF--6blNYq6Pqjyesi-EClR1dQFngBs_kc7bzjTjWueOB6QKUsu8Jy5OF7',
+    
+    # Prolific study ID
+    "study_id": '67c1c784a2aa330a95bbbfd3',
+
+    # Maximum number of concurrent sessions
+    "max_concurrent_sessions": 50,
+
+    # Workload checker period in seconds
+    "workload_checker_period": 60
+}

@@ -1,0 +1,227 @@
+Topic Words:
+ Topic 1: editorial, column, article, columnist, read, magazine, edition 
+ Topic 2: original, june, sunday, date, new 
+ Topic 3: ledbetter, breadwinner, discrimination, women, lilly, cent, workplace 
+ Topic 4: communism, authoritarian, faction, soviet, reagan, socialist, repression 
+ Topic 5: reconciliation, budgetary, funding, package, vision, blueprint, billion 
+ Topic 6: minimum, hourly, turnover, wage, overtime, earner, teen 
+ Topic 7: policing, floyd, police, murder, shooting, brutality, patrol 
+ Topic 8: physician, reimbursement, hospital, provider, patient, nursing, surgery 
+ Topic 9: firefighter, overtime, employee, morale, agent, turnover, supervisor 
+ Topic 10: harlem, bronx, city, heights, mansion, mayor, brooklyn 
+ Topic 11: sweden, germany, arab, developed, japan, worldwide, industrialized 
+ Topic 12: deduction, taxation, bracket, tax, dividend, exemption, revenue 
+ Topic 13: superintendent, schools, district, school, chancellor, elementary, curriculum 
+ Topic 14: renter, rental, voucher, homeowner, homeownership, eviction, housing 
+ Topic 15: south, korean, north, korea, carolina, kim, asian 
+ Topic 16: deductible, medication, medicare, drug, coverage, premium, beneficiary 
+ Topic 17: bachelor, undergraduate, college, graduation, tuition, graduate, diploma 
+ Topic 18: catholic, christian, religious, pope, church, prayer, francis 
+ Topic 19: soccer, cup, league, athlete, baseball, sport, coach 
+ Topic 20: workers, bargaining, organizing, unionization, unionize, relations, employer 
+ Topic 21: senators, senator, turnout, socialism, reid, biden, joe 
+ Topic 22: somebody, guess, maybe, interesting, pretty, listen, folk 
+ Topic 23: farmer, farm, farming, agriculture, acre, gas, oil 
+ Topic 24: luther, king, commemorate, beloved, hatred, martin, lewis 
+ Topic 25: advisers, recession, unemployment, fed, recovery, monetary, growth 
+ Topic 26: export, china, authoritarian, currency, surplus, foreign, taiwan 
+ Topic 27: sing, memoir, beloved, poet, music, arts, literary 
+ Topic 28: kindergarten, elementary, student, learning, literacy, educator, parental 
+ Topic 29: median, hispanic, household, hispanics, census, diploma, bracket 
+ Topic 30: commander, navy, civilian, readiness, aircraft, military, personnel 
+ Topic 31: apartheid, racism, racist, africa, crow, homeownership, african 
+ Topic 32: alaska, tribal, hurricane, tribe, indian, native, vermont 
+ Topic 33: sister, fun, plastic, brother, stuff, scream, bunch 
+ Topic 34: library, volunteer, nonprofit, organization, outreach, web, mentor 
+ Topic 35: occupation, occupational, comparable, discrimination, underpaid, profession, applicant 
+ Topic 36: obamacare, republicans, presidency, conservatism, obama, candidate, barack 
+ Topic 37: redistribution, capitalism, wealth, mobility, gilded, earner, ladder 
+ Topic 38: shareholder, securities, stock, client, investor, corporate, disclosure 
+ Topic 39: jersey, governor, connecticut, locality, newark, rhode, legislature 
+ Topic 40: bush, reagan, presidency, clinton, adviser, pollster, dole 
+ Topic 41: borrower, lender, foreclosure, loan, lending, regulator, banking 
+ Topic 42: hunger, hungry, nutrition, jobless, unemployed, stamp, food 
+ Topic 43: breast, mental, suicide, disorder, mom, addiction, trauma 
+ Topic 44: treaty, mexican, border, refugee, import, migration, sanction 
+ Topic 45: entrepreneurship, entrepreneur, innovation, resilient, revitalize, competitiveness, investment 
+ Topic 46: judicial, impeachment, judiciary, confirmation, allege, dissent, judge 
+ Topic 47: teacher, teachers, teaching, educator, classroom, profession, experienced 
+ Topic 48: metro, francisco, angeles, los, san, county, jose 
+ Topic 49: illness, health, infant, delivery, adult, patient, disorder 
+ Topic 50: spouse, widow, divorce, married, retirement, boomer, husband 
+ Topic 51: amendment, ratify, constitutional, resolution, veto, constitution, parliamentary 
+ Topic 52: affirmative, discrimination, justice, segregation, marshall, equality, gay 
+ Topic 53: ukraine, israel, putin, commander, iran, vladimir, forces 
+ Topic 54: antitrust, merger, monopoly, customer, cable, consumer, concentrated 
+ Topic 55: integrity, rig, ordinary, lobbyist, destroy, mission, manipulate 
+ 
+ Covariate Words:
+ Group Congress: unfortunately, twothird, importantly, unanimous, furthermore, unprecedented, unacceptable 
+ Group nyt: wane, unusually, rethink, albeit, appended, largely, disappointment 
+ 
+ Topic-Covariate Interactions:
+ Topic 1, Group Congress: washington, simon, quote, sunday, post, newspaper, journal 
+ Topic 1, Group nyt: tip, editor, reader, email, essay, opinion, journalist 
+ 
+ Topic 2, Group Congress: original 
+ Topic 2, Group nyt: sunday, original 
+ 
+ Topic 3, Group Congress: commemorate, congresswoman, employer, hispanic, loophole, workforce, disclose 
+ Topic 3, Group nyt: harassment, sexual, girl, pregnant, stereotype, reproductive, empowerment 
+ 
+ Topic 4, Group Congress: cuba, caribbean, empire, latin, colonial, massacre, region 
+ Topic 4, Group nyt: liberalism, conservatism, morality, nationalism, partisan, conspiracy, dissent 
+ 
+ Topic 5, Group Congress: budget, balanced, entitlement, resolution, medicaid, fiscal, deficit 
+ Topic 5, Group nyt: trillion, stimulus, infrastructure, biden, plan, proposal, rescue 
+ 
+ Topic 6, Group Congress: breadwinner, fulltime, lowincome, ceo, welfare, pollster, nobel 
+ Topic 6, Group nyt: dropout, automation, walmart, manufacturing, unionization, employer, retailer 
+ 
+ Topic 7, Group Congress: lockdown, assassination, diplomat, database, paris, defender, parliament 
+ Topic 7, Group nyt: massacre, occupy, hong, uprising, chile, commander, prisoner 
+ 
+ Topic 8, Group Congress: prospective, medicare, beneficiary, urban, differential, index, montana 
+ Topic 8, Group nyt: medication, disease, aids, disorder, cancer, mortality, healthcare 
+ 
+ Topic 9, Group Congress: locality, employees, compensation, grade, talented, adjustment, salary 
+ Topic 9, Group nyt: contractor, uber, airline, gig, passenger, audit, airport 
+ 
+ Topic 10, Group Congress: orleans, houston, parking, apartment, guard, yard, memo 
+ Topic 10, Group nyt: policing, blasio, koch, transit, albany, adams, bloomberg 
+ 
+ Topic 11, Group Congress: japanese, ally, parliament, roman, convention, scientist, shortage 
+ Topic 11, Group nyt: brazil, latin, indian, export, chile, foreigner, continent 
+ 
+ Topic 12, Group Congress: raiser, marriage, royal, middleclass, businessman, reconciliation, hurricane 
+ Topic 12, Group nyt: emmanuel, audit, billionaire, deductible, homeowner, budget, wealth 
+ 
+ Topic 13, Group Congress: colorado, tourism, wire, tourist, columbia, inner, suicide 
+ Topic 13, Group nyt: grade, educator, learning, student, teacher, teaching, enrol 
+ 
+ Topic 14, Group Congress: charitable, conference, aids, eligibility, appropriation, donation, demonstration 
+ Topic 14, Group nyt: buyer, acre, vacant, estate, building, neighborhood, median 
+ 
+ Topic 15, Group Congress: dakota, pacific, peasant, vietnam, commander, fort, cluster 
+ Topic 15, Group nyt: prosecutor, missile, nuclear, lee, moon, dictator, reconciliation 
+ 
+ Topic 16, Group Congress: lowincome, nursing, employees, medicine, terror, horse, conference 
+ Topic 16, Group nyt: obamacare, uninsured, security, repeal, payment, pell, entitlement 
+ 
+ Topic 17, Group Congress: mississippi, inspire, microsoft, hawaii, mary, freeze, culture 
+ Topic 17, Group nyt: pell, duke, sociology, laureate, nobel, profession, summers 
+ 
+ Topic 18, Group Congress: torture, migrant, globalization, province, brazil, nationalism, universal 
+ Topic 18, Group nyt: jews, jewish, secular, summit, cuba, liberation, abortion 
+ 
+ Topic 19, Group Congress: girl, women, sexual, actress, harassment, exemption, hawaii 
+ Topic 19, Group nyt: golf, tour, injury, vegas, salary, talented, club 
+ 
+ Topic 20, Group Congress: ballot, undocumented, harassment, gig, stagnate, litigation, overturn 
+ Topic 20, Group nyt: motors, ford, detroit, greenhouse, walker, ratify, tier 
+ 
+ Topic 21, Group Congress: mccain, mcconnell, distinguished, floor, bipartisan, rescue, diplomat 
+ Topic 21, Group nyt: sanders, bernie, impeachment, electorate, nominee, caucus, nomination 
+ 
+ Topic 22, Group Congress: not, chart, gentleman, anxiety, boat, poster, floor 
+ Topic 22, Group nyt: edit, weird, fun, conversation, funny, hey, happiness 
+ 
+ Topic 23, Group Congress: emission, fossil, greenhouse, carbon, climate, warming, windfall 
+ Topic 23, Group nyt: supplier, auto, retailer, penny, steel, manufacturer, utility 
+ 
+ Topic 24, Group Congress: caucus, kelly, latinos, lee, pastor, singer, racially 
+ Topic 24, Group nyt: slave, slavery, philosopher, massacre, vietnam, biography, lives 
+ 
+ Topic 25, Group Congress: ireland, chart, capita, observation, fulltime, cbo, spain 
+ Topic 25, Group nyt: currency, treasury, euro, slump, export, gasoline, borrowing 
+ 
+ Topic 26, Group Congress: trans, globalization, agreement, walmart, tariff, mexico, offshore 
+ Topic 26, Group nyt: jinping, shanghai, tokyo, peasant, province, ministry, beijing 
+ 
+ Topic 27, Group Congress: roosevelt, politician, prison, grandchild, ideology, clothe, franklin 
+ Topic 27, Group nyt: exhibition, visual, museum, comedy, documentary, broadway, film 
+ 
+ Topic 28, Group Congress: pell, maine, hawaii, textbook, lowincome, louisiana, despair 
+ Topic 28, Group nyt: schooling, exam, admission, talented, mobility, selective, college 
+ 
+ Topic 29, Group Congress: latinos, latino, unionization, americas, dream, overlook, topic 
+ Topic 29, Group nyt: statistical, expectancy, earner, researcher, outpace, proportion, recession 
+ 
+ Topic 30, Group Congress: authorization, retiree, sea, assignment, junior, disability, specialty 
+ Topic 30, Group nyt: surplus, deficit, reagan, budget, cutback, expenditure, aid 
+ 
+ Topic 31, Group Congress: continent, sin, contender, uprising, resilience, judiciary, louisiana 
+ Topic 31, Group nyt: floyd, integration, atlanta, brutality, neighborhood, harlem, mine 
+ 
+ Topic 32, Group Congress: water, dump, pollution, forest, settlement, site, southeast 
+ Topic 32, Group nyt: alabama, dakota, montana, gun, oklahoma, tennessee, florida 
+ 
+ Topic 33, Group Congress: math, borrowing, gdp, misery, trillion, leftist, tribal 
+ Topic 33, Group nyt: shirt, designer, dining, navy, restaurant, clothe, tourist 
+ 
+ Topic 34, Group Congress: outdoor, williams, services, maryland, literacy, software, technological 
+ Topic 34, Group nyt: donate, gates, donation, charitable, charity, walker, raiser 
+ 
+ Topic 35, Group Congress: sex, men, ethnicity, female, discriminatory, origin, litigation 
+ Topic 35, Group nyt: supervisor, automation, remote, computer, software, manager, layoff 
+ 
+ Topic 36, Group Congress: filibuster, fake, soft, healthcare, golf, loophole, tenth 
+ Topic 36, Group nyt: schumer, midterm, turnout, voter, pelosi, tea, caucus 
+ 
+ Topic 37, Group Congress: socialism, middleclass, socialist, liberalism, singer, transformative, quote 
+ Topic 37, Group nyt: krugman, sweden, technological, billionaire, economics, column, advisers 
+ 
+ Topic 38, Group Congress: audit, foreign, inclusion, book, deductible, loophole, ceo 
+ Topic 38, Group nyt: merger, goldman, walmart, trader, trading, equity, jet 
+ 
+ Topic 39, Group Congress: montana, tennessee, lane, florida, louisiana, alabama, arkansas 
+ Topic 39, Group nyt: cuomo, county, statewide, veto, assembly, lawmaker, democrat 
+ 
+ Topic 40, Group Congress: surplus, trillion, debt, veto, misery, middleclass, spending 
+ Topic 40, Group nyt: obama, rodham, hillary, mccain, summers, advisers, treasury 
+ 
+ Topic 41, Group Congress: audit, cooperative, electric, donate, reporting, telephone, texas 
+ Topic 41, Group nyt: retirement, portfolio, planner, customer, literacy, regulatory, regulation 
+ 
+ Topic 42, Group Congress: tea, billionaire, kid, pell, millionaire, mom, middleclass 
+ Topic 42, Group nyt: welfare, applause, recipient, aid, subsidy, disability, needy 
+ 
+ Topic 43, Group Congress: infection, medication, pandemic, vaccine, covid, virus, tennessee 
+ Topic 43, Group nyt: girl, teenager, singer, empathy, friendship, memoir, intimate 
+ 
+ Topic 44, Group Congress: greece, greek, bloc, caribbean, immigrant, gates, supplier 
+ Topic 44, Group nyt: fossil, emission, solar, tariff, carbon, warming, greenhouse 
+ 
+ Topic 45, Group Congress: pete, chairwoman, schumer, hop, tribal, golf, package 
+ Topic 45, Group nyt: capitalism, technological, cooperative, creativity, highway, profit, productivity 
+ 
+ Topic 46, Group Congress: section, russian, putin, moscow, seat, legitimacy, intelligence 
+ Topic 46, Group nyt: bail, enforcement, memo, detain, leak, discrimination, victim 
+ 
+ Topic 47, Group Congress: elementary, best, ohio, schooling, ticket, academic, secondary 
+ Topic 47, Group nyt: settlement, negotiation, pact, musician, contract, turnover, bonus 
+ 
+ Topic 48, Group Congress: passenger, amazon, delivery, deregulation, retailer, airport, customer 
+ Topic 48, Group nyt: parking, tourism, neighborhood, orleans, coastal, vegas, acre 
+ 
+ Topic 49, Group Congress: better, medicaid, obamacare, coverage, premium, affordable, healthcare 
+ Topic 49, Group nyt: vaccine, virus, covid, lockdown, pandemic, coronavirus, outbreak 
+ 
+ Topic 50, Group Congress: survivor, vest, disabled, payroll, recipient, railroad, eligibility 
+ Topic 50, Group nyt: mother, dad, sibling, pregnant, breadwinner, mom, daughter 
+ 
+ Topic 51, Group Congress: underlying, motion, appropriation, era, madam, autonomy, regret 
+ Topic 51, Group nyt: filibuster, voting, lawmaker, ballot, rape, gay, pregnancy 
+ 
+ Topic 52, Group Congress: reproductive, constitution, wade, harassment, abortion, overturn, fossil 
+ Topic 52, Group nyt: latinos, ethnicity, racially, racism, powell, nonwhite, diversity 
+ 
+ Topic 53, Group Congress: vietnam, navy, memorial, nuclear, jinping, supplemental, destruction 
+ Topic 53, Group nyt: greece, parliament, parliamentary, spain, islamic, leftist, european 
+ 
+ Topic 54, Group Congress: auto, liability, injure, insurer, litigation, injury, manufacturer 
+ Topic 54, Group nyt: amazon, app, silicon, tech, user, digital, microsoft 
+ 
+ Topic 55, Group Congress: citizens, constitution, voting, ballot, constitutional, nominee, corrupt 
+ Topic 55, Group nyt: thank, colleague, america, today, gentleman, wrong, threat 
+ 

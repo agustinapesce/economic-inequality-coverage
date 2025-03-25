@@ -1,0 +1,885 @@
+source venv/bin/activate
+(venv) agustina.pesce94@emi-survey:~$ potato start intrusion_task_server -p 8001
+multiple config files found, please select the one you want to use (number 0-2)
+[0] radio-dynamic-labels3.yaml
+[1] prolific_config.yaml
+number: 0
+starting server from intrusion_task_server/configs/radio-dynamic-labels3.yaml
+the current working directory is: /home/agustina.pesce94/intrusion_task_server
+Prolific configurations successfully loaded for study: Intruder task
+id: 67c1c784a2aa330a95bbbfd3
+name: Topic validation task
+internal_name: Intruder task
+reward: 250
+average_reward_per_hour: 750.0
+external_study_url: https://emi-survey.com/?PROLIFIC_PID={{%PROLIFIC_PID%}}&STUDY_ID={{%STUDY_ID%}}&SESSION_ID={{%SESSION_ID%}}
+status: PAUSED
+total_available_places: 20
+places_taken: 6
+WARNING:potato.flask_server:surveyflow_html_layout not configured, use default template at /home/agustina.pesce94/venv/lib/python3.8/site-packages/potato/base_html/examples/plain_layout.html
+running at:
+localhost:8001
+ * Serving Flask app 'potato.flask_server'
+ * Debug mode: off
+prolific logging in with PROLIFIC_PID=67af66da046c897935c6e345
+update_prolific_study is called
+Successfully fetched 12 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67af66da046c897935c6e345, total pages: 57, total users: 1, unassigned labels: 2401, finished users: 0
+WARNING:root:Instance already assigned to user 67af66da046c897935c6e345, assigning process stoppped
+saved
+saved
+prolific logging in with PROLIFIC_PID=67bf4cc4ebef2382333d9d67
+update_prolific_study is called
+Successfully fetched 13 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 67bf4cc4ebef2382333d9d67, total pages: 57, total users: 2, unassigned labels: 2352, finished users: 0
+WARNING:root:Instance already assigned to user 67bf4cc4ebef2382333d9d67, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=679167878221917d83fbfb28
+update_prolific_study is called
+Successfully fetched 14 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 679167878221917d83fbfb28, total pages: 57, total users: 3, unassigned labels: 2303, finished users: 0
+saved
+WARNING:root:Instance already assigned to user 679167878221917d83fbfb28, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=66ef8c16db6307178a651f0a
+update_prolific_study is called
+Successfully fetched 15 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 66ef8c16db6307178a651f0a, total pages: 57, total users: 4, unassigned labels: 2254, finished users: 0
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=65b68acc71be98a237ceb19d
+update_prolific_study is called
+Successfully fetched 16 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 65b68acc71be98a237ceb19d, total pages: 57, total users: 5, unassigned labels: 2205, finished users: 1
+prolific logging in with PROLIFIC_PID=612d8989558753050c644343
+update_prolific_study is called
+prolific logging in with PROLIFIC_PID=6719775f30d9b7db9d03d1ac
+update_prolific_study is called
+Successfully fetched 18 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 6719775f30d9b7db9d03d1ac, total pages: 57, total users: 6, unassigned labels: 2156, finished users: 1
+Successfully fetched 18 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 612d8989558753050c644343, total pages: 57, total users: 7, unassigned labels: 2107, finished users: 1
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 6719775f30d9b7db9d03d1ac, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 65b68acc71be98a237ceb19d, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=6108f7876d88d5079619afca
+update_prolific_study is called
+saved
+Successfully fetched 19 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 6108f7876d88d5079619afca, total pages: 57, total users: 8, unassigned labels: 2058, finished users: 1
+WARNING:root:Instance already assigned to user 612d8989558753050c644343, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 6108f7876d88d5079619afca, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=644937030a7868838f1e1b9a
+update_prolific_study is called
+Successfully fetched 20 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 644937030a7868838f1e1b9a, total pages: 57, total users: 9, unassigned labels: 2009, finished users: 2
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=63b88b7855864805bec51ddc
+update_prolific_study is called
+saved
+Successfully fetched 21 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 63b88b7855864805bec51ddc, total pages: 57, total users: 10, unassigned labels: 1960, finished users: 4
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 63b88b7855864805bec51ddc, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+ERROR:werkzeug:206.168.34.217 - - [03/Mar/2025 19:38:47] code 400, message Bad HTTP/0.9 request type ('\x06\x00ÿ\x07\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=66bcbbd35d182838b25ff7df
+update_prolific_study is called
+saved
+Successfully fetched 22 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 66bcbbd35d182838b25ff7df, total pages: 57, total users: 11, unassigned labels: 1911, finished users: 4
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 66bcbbd35d182838b25ff7df, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 66ef8c16db6307178a651f0a, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=650bddc9fa7ab3500e7395b3
+update_prolific_study is called
+Successfully fetched 23 submissions from study 67c1c784a2aa330a95bbbfd3
+bad users moved to annotation_output3/archived_users
+removed 1 users from the current annotation queue
+assinged 52 instances to 650bddc9fa7ab3500e7395b3, total pages: 57, total users: 11, unassigned labels: 1911, finished users: 6
+saved
+saved
+WARNING:root:Instance already assigned to user 650bddc9fa7ab3500e7395b3, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=60e144a275d075549f49d12f
+update_prolific_study is called
+Successfully fetched 24 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 60e144a275d075549f49d12f, total pages: 57, total users: 12, unassigned labels: 1862, finished users: 8
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=62fbefe5f8360947dc74b642
+update_prolific_study is called
+Successfully fetched 25 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 62fbefe5f8360947dc74b642, total pages: 57, total users: 13, unassigned labels: 1813, finished users: 8
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 62fbefe5f8360947dc74b642, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 60e144a275d075549f49d12f, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=5fdb797c39b7316ce0c8f2cd
+update_prolific_study is called
+Successfully fetched 26 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 5fdb797c39b7316ce0c8f2cd, total pages: 57, total users: 14, unassigned labels: 1764, finished users: 10
+saved
+WARNING:root:Instance already assigned to user 644937030a7868838f1e1b9a, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+WARNING:root:Instance already assigned to user 5fdb797c39b7316ce0c8f2cd, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+prolific logging in with PROLIFIC_PID=614e8729fb12a3f553e70066
+update_prolific_study is called
+Successfully fetched 27 submissions from study 67c1c784a2aa330a95bbbfd3
+No users need to be dropped at this moment
+assinged 52 instances to 614e8729fb12a3f553e70066, total pages: 57, total users: 15, unassigned labels: 1715, finished users: 13
+WARNING:root:Instance already assigned to user 614e8729fb12a3f553e70066, assigning process stoppped
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+saved
+^C(venv) agustina.pesce94@emi-survey:~$ exit
+logout
