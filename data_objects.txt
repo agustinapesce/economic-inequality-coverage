@@ -5,6 +5,7 @@ Non-uploaded datasets
 
 	US_Congressional_speeches_EMI
 		combined_congress1879_till_2022_filtered_nonprocedural.csv.gzip # 1879-2022 EMI dataset
+		crec2023_2024.csv #2023-2024 congressional record data
 		crec_procflag.csv #2023-2024 with flagged procedural cases
 
 	python_objects
