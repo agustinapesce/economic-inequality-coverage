@@ -1,0 +1,31 @@
+Non-uploaded datasets
+
+1_congress_data_proc
+	congress80_merge.csv #used for stm preprocessing
+
+	US_Congressional_speeches_EMI
+		combined_congress1879_till_2022_filtered_nonprocedural.csv.gzip # 1879-2022 EMI dataset
+		crec_procflag.csv #2023-2024 with flagged procedural cases
+
+	python_objects
+		congress39_ineq_2401.csv       #inequality matches
+		congress39_econ_ineq_2401.csv  #economic inequality matches
+		
+	
+1_nyt_ineq_articles
+	nyt80_merge.csv #used for stm preprocessing
+
+	python_objects
+		nyt_four_word_list.pkl #explore articles body  
+		nyt_parsed_data_df.csv #parsed df
+		nyt_html_cleaned.csv   #parsed df, html erased
+
+2_stm_prepro
+	articles_speeches_dataset_r #merged df with nyt and congress data and preprocessed tokens
+
+3_stm_fit_R
+	out_meta_stm.csv #corpus to fit stm (1% prunned)
+
+4_llama_codebook_cliff
+	llama_cliff_merged_2502.csv  #llama classifications
+	llama_errors_merged_2502.csv #errors in classification

@@ -1,6 +1,0 @@
-nyt80_merge.csv
-
-python_objects
-	nyt_four_word_list.pkl
-	nyt_html_cleaned.csv
-	nyt_parsed_data_df.csv
